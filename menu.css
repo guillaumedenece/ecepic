@@ -1,0 +1,324 @@
+.menu li
+{
+   display: inline-block;
+   width: 10%;
+   margin-left:5%;
+   margin-right: 5%;
+   position: relative;
+}
+
+.menu_4 li
+{
+   display: inline-block;
+   width: 10%;
+   margin-left:7.5%;
+   margin-right: 7.5%;
+   position: relative;
+}
+
+.menu_4
+{
+   min-width: 200px;
+   width:70%;
+   margin:auto;
+}
+
+.menu
+{
+   min-width: 200px;
+   width:70%;
+   margin:auto;
+}
+
+.pictograme_menu
+{
+   width: 30px;
+}
+
+.pictograme_menu_avatar
+{
+   width: 30px;
+   overflow:hidden;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   border-radius:50px;
+}
+
+#background_menu
+{
+   width: 100%;
+   background-color: rgb(195,195,195);
+   margin-top: -65px;
+   position: fixed;
+}
+
+
+.bonjour
+{
+	margin-top:3%;
+	font-size:25px;
+	font:bold 1em/1em Arial, Helvetica;
+   text-transform:uppercase;
+   text-shadow: 2px 2px 2px #555;
+   color:black;
+   width:10%;
+   background:rgb(190,190,190);
+   position:fixed;
+   margin-top:-50px;
+}
+
+body
+{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width: 100%;
+	
+}
+
+.formulaire
+{
+   width: 30%;
+   min-width: 250px;
+   background-color: rgb(245,241,222);
+   position: fixed;
+   margin-left: 35%;
+   margin-top: 10%;
+   font-style: italic;
+}
+
+.areas
+{
+   border-radius: 10px;
+
+}
+
+#form_ajout_photo
+{
+   display:none;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: rgb(200,200,200);
+   width: 300px;
+
+
+}
+
+#background_add_picture
+{
+   width:100%;
+   height: 100%;
+   margin-top: -31px;
+   position: fixed;
+   background-color: rgba(240,240,240,0.9);
+   display:none;
+}
+#erreur
+{  font-family: Verdana;
+   font-size:25px;
+   margin-top:5.4%;
+   margin-left: 35%;
+}
+
+.menu ul, .menu_4 ul
+{
+   margin-left: -80px;
+   position:absolute;
+   z-index: 1000;
+   max-height:0;
+   left: 0;
+   right: 0;
+   overflow:hidden;
+   -moz-transition: .8s all .3s;
+   -webkit-transition: .8s all .3s;
+   transition: .8s all .3s;
+}
+
+.menu li:hover ul, .menu_4 li:hover ul
+{
+   max-height:15em;
+}
+
+.menu ul li, .menu_4 ul li
+{
+   display: block;
+   background-color: rgb(180,180,180);
+   width: 80px;
+}
+
+.menu li:first-child li, .menu_4 li:first-child li
+{
+   background-color: rgb(180,180,180);
+}
+
+.menu a:active, .menu_4 a:active, .menu a:visited, .menu_4 a:visited, .menu a, .menu_4 a
+{
+   text-decoration: none;
+   color: black;
+}
+
+#deconnexion
+{
+   margin: 0;
+   padding: 0;
+   line-height: 100%; /* Si ça fonctionne pas mets 0 */
+   border: 0;
+   background: none; /* ou transparent je sais plus... */
+   font: "TimesNewRoman"; /* Définis le même font qu'un lien traditionnel */;
+   color: black /* La même couleur... */;
+   text-decoration: none; /* Normalement */
+}
+
+
+
+.listed
+{
+   color:red;
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.image
+{
+	
+>>>>>>> 8f18aec0e6e4a0c6400548d855e35b2bbfade4ff
+}
+
+.img
+{
+	margin-left:20%;
+	margin-top:-6%;
+}
+
+.formulaire
+{
+	border:2px solid black;
+	width:35%;
+	background:rgb(24,143,129);
+}
+
+
+/*
+.menu 
+{
+   margin:0;
+   padding:0;
+   float:left;
+   width:46.1%;
+   height:80px;
+   border:1px solid #42432d;
+   border-width:2px 0;
+   margin-left:54.3%;
+   position:absolute;
+   top:0%;
+}
+ 
+.menu li 
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+
+
+.menu a:link, .menu a:visited 
+{
+   color:black;
+   background:rgb(24,143,129);
+   padding:30px 40px 4px 10px;
+   float:left;
+   width:auto;
+   border-right:1px solid #42432d;
+    text-decoration:none;
+   font:bold 1em/1em Arial, Helvetica;
+   text-transform:uppercase;
+   text-shadow: 2px 2px 2px #555;
+   height:50px;
+   
+   
+}
+
+.menu li:first-child a 
+{
+   border-left:1px solid #42432d;
+}
+
+.menu a:hover 
+{
+   color:#fff;
+   background:#727454;
+}
+
+.menu a:active 
+{
+   background:#e35a00;
+   color:#fff;
+}
+
+.ajout
+{position:absolute;
+left:41.3%;
+top:0%
+}
+
+.ajouter
+{
+   width:120%;
+   height:86px;
+   font-size:25px;
+   font:bold 1em/1em Arial, Helvetica;
+   text-transform:uppercase;
+   text-shadow: 2px 2px 2px #555;
+   color:black;
+   background:rgb(24,143,129);
+   border:2px solid black;
+   
+}
+
+.ajouter:active
+{
+    background:#e35a00;
+   color:#fff;
+}
+
+.ajouter:hover
+{
+   color:#fff;
+   background:#727454;
+}
+
+
+
+.img
+{
+	margin-left:20%;
+	margin-top:-6%;
+}
+
+
+form
+{
+   margin-top:3%;
+   padding-top:1%;
+	width:35%;
+	font:1em Kristen ITC;
+	margin-left:37%;
+	color:rgb(190,190,190);
+	
+}
+*/

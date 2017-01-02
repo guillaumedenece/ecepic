@@ -1,0 +1,50 @@
+#form_inscription
+{
+	margin: auto;
+	padding:1%;
+	padding-bottom:5%;
+	padding-top:5%;
+	border:6px solid rgb(76,80,93); /*crée une bordure de 8px noir et continu*/ 
+height:50%;/*défini la hauteur de la bordure*/
+margin-left:31%;/*décale la bordure de la moitié vers la droite*/
+width:40%;	/*défini la largeur de la bordure*/
+background-color:rgb(86,91,110); /*défini le fond de la bordure*/
+border-radius:13px; /*arrondi les angles de la bordudre*/
+}
+
+h2
+{
+	text-align: center;
+	margin-bottom:-2.5%;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#message_inscription
+{
+	text-align: center;
+	color:red;
+}
+
+.lien
+{
+	text-align:center;
+	margin-top:-2%
+}
+
+html
+{
+	height: 100%;
+	width: 99%;
+}
+
+body
+{   margin:0px;
+padding:0px;
+background-image:url("fond2.PNG");
+font-family:Lucida Bright;
+color:rgb(150,150,150);
+}

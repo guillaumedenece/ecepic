@@ -1,0 +1,21 @@
+
+
+body
+{
+	background-attachment:fixed;
+	background-image:url("ressources/fond_modif.jpg");
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+
+.modi
+{
+	height: 260px ;
+	width: 80%;
+	max-width: 400px;
+	font-family: cursive;
+	font-style: italic;
+	background-color: grey;
+	border-radius: 10px;
+	margin-top: 65px;
+}

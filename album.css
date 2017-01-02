@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ecriture_attachee;
+    src: url(ressources/LearningCurve.ttf);
+}
+
+.album_title
+{
+	font-weight: 800;
+	font-size: 2em;
+	text-align: center;
+	font-family: ecriture_attachee;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.album_description
+{
+	font-weight: 600;
+	font-size:1.5em;
+	font-family: ecriture_attachee;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+.album_page_title
+{
+	font-weight: 800;
+	font-size: 3em;
+	text-align: center;
+	font-family: ecriture_attachee;
+	margin-top: 65px;
+	margin-bottom: -40px;
+}

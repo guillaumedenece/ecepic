@@ -1,0 +1,177 @@
+h1
+{
+	text-align: center;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.image
+{
+
+	text-align: center;
+	height: 85%;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0.5em;
+}
+
+.bloc_photo
+{
+	display: block;
+	margin-top: 65px;
+	margin-bottom: 5px;
+	width:90%;
+	max-width: 650px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-bottom: 0.5em;
+}
+
+.photo
+{
+	max-height: 90%;
+	max-width: 98%;
+}
+
+html
+{
+	height: 100%;
+	width: 99%;
+}
+
+body
+{
+	background-color: rgb(242,242,242);
+	height: 100%;
+	width: 99%;
+	padding:0px;
+	margin:0px;
+}
+
+.paragraph_owner
+{
+	margin-left: 3%;
+}
+
+.avatar_owner{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:35px;
+    height:35px;
+    margin-right: 10px;
+    float:left;
+}
+
+.logo_description{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+}
+
+.description
+{
+	display: block;
+	margin-left: 3%;
+	margin-top: -0.1em;
+	margin-bottom: -0.1em;
+}
+
+.name_photo
+{
+	color: rgb(0,0,255);
+	font-size: 1.1em;
+}
+
+.name_owner
+{
+	font-size: 0.9em;
+}
+
+.description a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.image2
+{
+	
+	margin-left:15%;
+	margin-top:-55%;
+	border-radius:15px;
+	width:auto;
+	height:50%;
+}
+
+.deco
+{
+	margin-top:65px;
+}
+
+.modi
+{
+	margin-top:5%;
+	margin-left:40%;
+}
+
+.modif_photo
+{
+
+	display:none;
+	position:absolute;
+   padding: 10px;
+   margin-top:-380px;
+   margin-left: 15%;
+   background-color: rgba(240,240,240,0.9);
+}
+
+#administration
+{
+	margin-top: 65px;
+}
+
+.float_right
+{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:35px;
+    height:35px;
+    margin-right: 10px;
+    float:right;
+}
+
+a, a:active, a:visited
+{
+	text-decoration: none;
+	color:black;
+}
+
+.montitre
+{
+	margin-top: 65px;
+	font-family: ecriture_attachee;
+}
+
+.ajout_album
+{
+	width: 300px;
+	background-color: rgba(190,190,190,0.9);
+	margin:auto;
+	position:fixed;
+	margin-top: 80px;
+	text-align:center;
+	margin-left: 40%;
+}
